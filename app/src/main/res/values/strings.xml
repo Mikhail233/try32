@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Скороход</string>
+    <string name="db_url">http://f0293004.xsph.ru/</string>
+    <string name="nointernet_text">Отсутствует подключение к интернету</string>
+    <string name="similar_products_title">Похожие товары</string>
+    <string name="underlined_change_favourite"><u>Изменить</u></string>
+    <string name="underlined_select_favourite"><u>Выбрать магазин</u></string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="@color/bg_dark"
+        app:title="Сведения о магазине"
+        app:titleTextColor="#ffffff"
+        ></androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:background="@color/favourite_shop_item_selected"
+        android:text="Адрес:"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/address"
+        android:text="address"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/work_time_title"
+        android:layout_marginTop="15dp"
+        android:background="@color/favourite_shop_item_selected"
+        android:text="Режим работы:"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/work_time"
+        android:text="work_time"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/contacts_title"
+        android:layout_marginTop="15dp"
+        android:background="@color/favourite_shop_item_selected"
+        android:text="Контакты:"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/contacts"
+        android:text="contacts"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

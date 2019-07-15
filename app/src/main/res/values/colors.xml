@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFEA96</color>
+    <color name="colorPrimaryDark">#65488C</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="sizeBG_nenable">#FFFFFF</color>
+    <color name="sizeBG">#FDE8AC</color>
+    <color name="sizeBG1">#E8DBFF</color>
+    <color name="sizeFavouriteBG">#FFD500</color>
+    <color name="sizeFavouriteBG1">#9F80D1</color>
+    <color name="sizeBorder">#CEC8C8</color>
+    <color name="sizeBorderSelected">#65488C</color>
+    <color name="sizeBorderSelected1">#FFD500</color>
+    <color name="text">#000000</color>
+    <color name="catalog_background">#E6E6E6</color>
+    <color name="quantity_yes">#43A847</color>
+    <color name="quantity_no">#EB3A2C</color>
+    <color name="text_not_enable">#838383</color>
+    <color name="main_page_top_bar">#ffffff</color>
+    <color name="product_shops_item">#FFFFFF</color>
+    <color name="favourite_top_text_bg">#CAACFD</color>
+    <color name="favourite_shop_item_selected">#FFEA96</color>
+    <color name="favourite_shop_item_selected_dark">#FFE070</color>
+    <color name="favourite_divider">#F2F2F2</color>
+    <color name="favourite_button_bg_nenable">#CAACFD</color>
+    <color name="favourite_button_text_nenable">#999999</color>
+    <color name="favourite_button_bg">#65488C</color>
+    <color name="favourite_button_text">#F7F7F7</color>
+    <color name="bg_dark">#4F366D</color>
+    <color name="test">#6A599B</color>
+</resources>

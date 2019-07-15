@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="1000dp">
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@color/favourite_shop_item_selected">
+                <ImageView
+                    android:id="@+id/img_preview"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:padding="10dp"
+                    android:id="@+id/dialog_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Артикул\nРазмер\nЦена"
+                    android:textSize="18dp"
+                    />
+            </LinearLayout>
+            <!--<TextView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Содержимое QR-кода:"
+                android:layout_marginTop="15dp"
+                android:textSize="18dp"
+                android:background="#D5D5D5"/>
+            <TextView
+                android:padding="10dp"
+                android:id="@+id/dialog_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="QR-code"
+                android:textSize="16dp"/>-->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_margin="5dp">
+    <!--CATALOG ITEM-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            tools:srcCompat="@tools:sample/avatars[3]" />
+
+        <TextView
+            android:id="@+id/catalogQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:paddingVertical="2dp"
+            android:paddingHorizontal="5dp"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/catalogName"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="left"
+        android:text="Name"
+        android:textStyle="bold"
+        android:paddingHorizontal="10dp"/>
+    <TextView
+        android:id="@+id/catalogPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="left"
+        android:text="Цена"
+        android:paddingHorizontal="10dp"/>
+
+</LinearLayout>

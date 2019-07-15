@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="@color/bg_dark"
+        app:titleTextColor="#ffffff"
+        app:title="Выбор магазина"
+        ></androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Выберите магазин, в котором будет производиться поиск в первую очередь:"
+        android:textSize="18dp"
+        android:background="@color/favourite_top_text_bg"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+        <ListView
+            android:id="@+id/favourite_shop_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ECECEC"
+            android:divider="@color/favourite_divider"
+            android:dividerHeight="1dp"></ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom">
+        <Button
+            android:id="@+id/favourite_shop_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Отменить"
+            android:background="@color/favourite_button_bg"
+            android:textColor="@color/favourite_button_text"
+            android:onClick="FavouriteCancel"/>
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff"/>
+        <Button
+            android:id="@+id/favourite_shop_chose"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Подтвердить"
+            android:onClick="FavouriteOk"
+            android:background="@color/favourite_button_bg"
+            android:textColor="@color/favourite_button_text"/>
+    </LinearLayout>
+</LinearLayout>
